@@ -2,7 +2,7 @@
 
 Build | PivotalServices.AspNet.Auth.Extensions |
 --- | --- |
-[![Build Status](https://dev.azure.com/ajaganathan-home/pivotal_aspnet_auth_extensions/_apis/build/status/alfusinigoj.pivotal_aspnet_auth_extensions?branchName=master)](https://dev.azure.com/ajaganathan-home/pivotal_aspnet_auth_extensions/_build/latest?definitionId=2&branchName=master) | [![NuGet](https://img.shields.io/nuget/v/PivotalServices.AspNet.Auth.Extensions.svg?style=flat-square)](http://www.nuget.org/packages/PivotalServices.AspNet.Auth.Extensions) 
+[![Build Status](https://dev.azure.com/ajaganathan-home/pivotal_aspnet_auth_extensions/_apis/build/status/alfusinigoj.pivotal_aspnet_auth_extensions?branchName=master)](https://dev.azure.com/ajaganathan-home/pivotal_aspnet_auth_extensions/_build/latest?definitionId=6&branchName=master) | [![NuGet](https://img.shields.io/nuget/v/PivotalServices.AspNet.Auth.Extensions.svg?style=flat-square)](http://www.nuget.org/packages/PivotalServices.AspNet.Auth.Extensions) 
 
 ### Quick Links
 - [Supported ASP.NET apps](https://github.com/alfusinigoj/pivotal_aspnet_auth_extensions#supported-aspnet-apps)
