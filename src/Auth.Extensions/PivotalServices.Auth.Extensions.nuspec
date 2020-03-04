@@ -9,7 +9,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <description>Package helps to enable Windows Auth using Kerberos in container(not joined to a domain controller) platform</description>
-    <copyright>$PivotalServicesBootstrapCopyright$</copyright>
+    <copyright>$PivotalServicesPackageCopyright$</copyright>
     <repository type="git" url="https://github.com/alfusinigoj/pivotal_aspnet_auth_extensions.git"/>
     <tags>ASP.NET; Windows; Authentication; Kerberos</tags>
     <frameworkAssemblies>
