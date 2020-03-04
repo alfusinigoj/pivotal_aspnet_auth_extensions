@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>PivotalServices.AspNet.Auth.Extensions</id>
+    <version>$Version$</version>
+    <title>PivotalServices.AspNet.Auth.Extensions</title>
+    <authors>ajaganathan,Pivotal</authors>
+    <owners>ajaganathan</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>Package helps to enable Windows Auth using Kerberos in container(not joined to a domain controller) platform</description>
+    <copyright>$PivotalServicesBootstrapCopyright$</copyright>
+    <repository type="git" url="https://github.com/alfusinigoj/pivotal_aspnet_auth_extensions.git"/>
+    <tags>ASP.NET; Windows; Authentication; Kerberos</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Web"  targetFramework="$TargetFrameworkGeneral$" />
+      <frameworkAssembly assemblyName="System.Configuration"  targetFramework="$TargetFrameworkGeneral$" />
+    </frameworkAssemblies>
+    <dependencies>
+      <group targetFramework="$TargetFrameworkGeneral$">
+        <dependency id="Microsoft.Extensions.Hosting.Abstractions" version ="$MicrosoftExtensionsVersion$"/>
+        <dependency id="Microsoft.AspNetCore.Authentication" version ="$MicrosoftAspNetCoreVersion$"/>
+        <dependency id="Microsoft.AspNetCore.Authentication.Cookies" version ="$MicrosoftAspNetCoreVersion$"/>
+        <dependency id="Microsoft.Web.Infrastructure" version ="$MicrosoftWebVersion$"/>
+        <dependency id="Kerberos.NET" version ="$KerberosNetVersion$"/>
+        <dependency id="PivotalServices.AspNet.Bootstrap.Extensions" version ="$PivotalServicesBootstrapExtensionsPackageVersion$"/>
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Web.config.install.xdt" target="Content" />
+    <file src="Web.config.uninstall.xdt" target="Content" />
+    <file src="readme.txt" target="" />
+  </files>
+</package>

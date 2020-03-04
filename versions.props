@@ -1,0 +1,21 @@
+<Project>
+  <PropertyGroup>
+    <PivotalServicesPackageVersion>1.0.0</PivotalServicesPackageVersion>
+    <PivotalServicesPackageVersionSuffix></PivotalServicesPackageVersionSuffix>
+    <PivotalServicesPackageVersionRevision>0</PivotalServicesPackageVersionRevision>
+    <PivotalServicesPackageBuildNumber>$([System.DateTime]::Now.ToString(yyyyMMddHHmmss))</PivotalServicesPackageBuildNumber>
+    <PivotalServicesPackageCopyright>All rights reserved.</PivotalServicesPackageCopyright>
+    <PivotalServicesPackageFullVersion>$(PivotalServicesPackageVersion)$(PivotalServicesPackageVersionSuffix)</PivotalServicesPackageFullVersion>
+    <PivotalServicesPackageAssemblyVersion>$(PivotalServicesPackageVersion).$(PivotalServicesPackageVersionRevision)</PivotalServicesPackageAssemblyVersion>
+    <PivotalServicesPackageFileVersion>$(PivotalServicesPackageVersion).$(PivotalServicesPackageVersionRevision)</PivotalServicesPackageFileVersion>
+    <PivotalServicesPackageInformationalVersion>$(PivotalServicesPackageFullVersion)-$(PivotalServicesPackageVersionRevision)-$(PivotalServicesPackageBuildNumber)</PivotalServicesPackageInformationalVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MicrosoftAspNetCoreVersion>2.2.0</MicrosoftAspNetCoreVersion>
+    <MicrosoftWebVersion>1.0.0</MicrosoftWebVersion>
+    <MicrosoftExtensionsVersion>2.2.0</MicrosoftExtensionsVersion>
+    <KerberosNetVersion>2.7.508.1</KerberosNetVersion>
+    <PivotalServicesBootstrapExtensionsPackageVersion>1.0.0</PivotalServicesBootstrapExtensionsPackageVersion>
+    <TargetFrameworkGeneral>net461</TargetFrameworkGeneral>
+  </PropertyGroup>
+</Project>
