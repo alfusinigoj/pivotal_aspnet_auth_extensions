@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <PivotalServicesPackageVersion>1.0.0</PivotalServicesPackageVersion>
+    <PivotalServicesPackageVersion>1.0.1</PivotalServicesPackageVersion>
     <PivotalServicesPackageVersionSuffix></PivotalServicesPackageVersionSuffix>
     <PivotalServicesPackageVersionRevision>0</PivotalServicesPackageVersionRevision>
     <PivotalServicesPackageBuildNumber>$([System.DateTime]::Now.ToString(yyyyMMddHHmmss))</PivotalServicesPackageBuildNumber>
@@ -13,9 +13,9 @@
   <PropertyGroup>
     <MicrosoftAspNetCoreVersion>2.2.0</MicrosoftAspNetCoreVersion>
     <MicrosoftWebVersion>1.0.0</MicrosoftWebVersion>
-    <MicrosoftExtensionsVersion>2.2.0</MicrosoftExtensionsVersion>
+    <MicrosoftExtensionsVersion>3.1.7</MicrosoftExtensionsVersion>
     <KerberosNetVersion>2.7.508.1</KerberosNetVersion>
-    <PivotalServicesBootstrapExtensionsPackageVersion>1.0.0</PivotalServicesBootstrapExtensionsPackageVersion>
+    <PivotalServicesBootstrapExtensionsPackageVersion>1.1.1</PivotalServicesBootstrapExtensionsPackageVersion>
     <TargetFrameworkGeneral>net461</TargetFrameworkGeneral>
   </PropertyGroup>
 </Project>
